@@ -5,7 +5,7 @@ imageio==2.33.0
 ipyleaflet==0.17.4
 leafmap==0.29.1
 numpy==1.22.4
-
+requests
 
 plotly==5.18.0
 pyproj==3.3.1
