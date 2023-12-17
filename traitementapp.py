@@ -276,7 +276,7 @@ if selected=="Timeseries":
                         # Créer un objet de dessin
                         draw = ImageDraw.Draw(image_data)
 
-                        font_size = 24  # Adjust the font size as needed
+                        font_size = 40  # Adjust the font size as needed
 
                         # Charger une police avec la taille spécifiée
                         font = ImageFont.load_default()
