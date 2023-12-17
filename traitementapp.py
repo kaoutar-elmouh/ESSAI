@@ -20,7 +20,7 @@ from folium import plugins
 from folium.plugins import Geocoder
 
 from io import BytesIO
-
+import requests
 
 import leafmap.foliumap as leafmap
 import altair as alt
