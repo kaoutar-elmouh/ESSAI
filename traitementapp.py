@@ -279,7 +279,8 @@ if selected=="Timeseries":
                         font_size = 24  # Adjust the font size as needed
 
                         # Charger une police avec la taille spécifiée
-                        font = ImageFont.truetype("arial.ttf", font_size)
+                        font = ImageFont.load_default()
+
 
                         # Annoter chaque image avec les noms des jours
                         draw.text((60, 60), f'{attribute} jour {i}', fill='black', font=font)
